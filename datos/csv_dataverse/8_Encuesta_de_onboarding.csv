@@ -1,0 +1,137 @@
+﻿ID encuesta,Ingreso,Fecha de respuesta,Satisfacción general,Claridad del primer día,Equipo listo el día 1,Comentario
+ENC-0001,ING-0001,2025-06-10,5,4,Sí,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0002,ING-0002,2025-06-13,3,3,Sí,
+ENC-0003,ING-0003,2025-06-13,4,4,Sí,Mi tutor me ayudó mucho la primera semana.
+ENC-0004,ING-0004,2025-06-17,4,4,Sí,Todo estuvo listo desde el primer día.
+ENC-0005,ING-0005,2025-06-25,2,3,No,
+ENC-0006,ING-0006,2025-06-25,4,4,Sí,
+ENC-0007,ING-0007,2025-06-26,5,4,Sí,
+ENC-0008,ING-0008,2025-07-10,5,5,Sí,Todo estuvo listo desde el primer día.
+ENC-0009,ING-0010,2025-07-17,5,4,Sí,
+ENC-0010,ING-0011,2025-07-21,3,3,No,"En general bien, aunque algunos accesos tardaron."
+ENC-0011,ING-0012,2025-07-23,3,3,Sí,
+ENC-0012,ING-0013,2025-07-25,4,5,Sí,Todo estuvo listo desde el primer día.
+ENC-0013,ING-0014,2025-07-28,4,4,Sí,Todo estuvo listo desde el primer día.
+ENC-0014,ING-0015,2025-07-31,3,4,Sí,
+ENC-0015,ING-0016,2025-08-08,3,4,Sí,
+ENC-0016,ING-0017,2025-08-14,2,2,No,Sentí que no me estaban esperando.
+ENC-0017,ING-0018,2025-08-13,2,2,No,Sentí que no me estaban esperando.
+ENC-0018,ING-0019,2025-08-21,5,4,Sí,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0019,ING-0020,2025-08-27,4,4,Sí,
+ENC-0020,ING-0021,2025-08-29,3,3,Sí,"La inducción fue útil, pero con mucha información junta."
+ENC-0021,ING-0022,2025-08-29,4,3,No,
+ENC-0022,ING-0023,2025-09-02,4,4,Sí,Todo estuvo listo desde el primer día.
+ENC-0023,ING-0024,2025-09-03,3,4,No,"La inducción fue útil, pero con mucha información junta."
+ENC-0024,ING-0025,2025-09-04,4,3,Sí,
+ENC-0025,ING-0026,2025-09-04,2,4,No,
+ENC-0026,ING-0027,2025-09-05,4,3,Sí,
+ENC-0027,ING-0030,2025-09-11,3,4,No,
+ENC-0028,ING-0031,2025-09-09,2,3,No,El primer día no tenía equipo para trabajar.
+ENC-0029,ING-0032,2025-09-15,3,4,No,"En general bien, aunque algunos accesos tardaron."
+ENC-0030,ING-0033,2025-09-18,1,2,No,
+ENC-0031,ING-0034,2025-09-29,4,4,Sí,
+ENC-0032,ING-0035,2025-09-29,4,4,Sí,Todo estuvo listo desde el primer día.
+ENC-0033,ING-0038,2025-10-02,4,4,Sí,
+ENC-0034,ING-0039,2025-10-09,4,4,Sí,Todo estuvo listo desde el primer día.
+ENC-0035,ING-0040,2025-10-13,2,3,Sí,
+ENC-0036,ING-0041,2025-10-16,3,4,No,
+ENC-0037,ING-0042,2025-10-15,5,5,Sí,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0038,ING-0043,2025-10-17,5,4,Sí,
+ENC-0039,ING-0045,2025-10-31,5,5,Sí,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0040,ING-0046,2025-11-12,1,1,No,Pasé varios días sin acceso a los sistemas.
+ENC-0041,ING-0047,2025-11-14,4,4,Sí,Mi tutor me ayudó mucho la primera semana.
+ENC-0042,ING-0048,2025-11-17,4,4,Sí,Todo estuvo listo desde el primer día.
+ENC-0043,ING-0050,2025-11-19,3,4,Sí,"En general bien, aunque algunos accesos tardaron."
+ENC-0044,ING-0051,2025-11-20,2,2,No,
+ENC-0045,ING-0052,2025-11-24,4,4,Sí,Mi tutor me ayudó mucho la primera semana.
+ENC-0046,ING-0053,2025-11-27,2,3,No,Pasé varios días sin acceso a los sistemas.
+ENC-0047,ING-0054,2025-12-04,5,5,Sí,Todo estuvo listo desde el primer día.
+ENC-0048,ING-0058,2025-12-18,2,2,Sí,Sentí que no me estaban esperando.
+ENC-0049,ING-0059,2025-12-22,4,4,Sí,
+ENC-0050,ING-0060,2025-12-25,4,3,Sí,Mi tutor me ayudó mucho la primera semana.
+ENC-0051,ING-0061,2025-12-25,3,4,No,"La inducción fue útil, pero con mucha información junta."
+ENC-0052,ING-0062,2025-12-26,5,5,Sí,
+ENC-0053,ING-0063,2025-12-25,4,4,Sí,
+ENC-0054,ING-0064,2025-12-30,4,5,Sí,
+ENC-0055,ING-0065,2025-12-30,4,3,Sí,
+ENC-0056,ING-0066,2026-01-02,4,4,Sí,
+ENC-0057,ING-0069,2026-01-14,4,4,Sí,
+ENC-0058,ING-0070,2026-01-16,5,5,Sí,
+ENC-0059,ING-0071,2026-01-21,4,5,Sí,Todo estuvo listo desde el primer día.
+ENC-0060,ING-0072,2026-01-22,4,3,Sí,
+ENC-0061,ING-0073,2026-01-28,4,3,No,
+ENC-0062,ING-0074,2026-02-04,3,3,No,"En general bien, aunque algunos accesos tardaron."
+ENC-0063,ING-0076,2026-02-09,3,4,Sí,
+ENC-0064,ING-0078,2026-02-16,4,3,No,Mi tutor me ayudó mucho la primera semana.
+ENC-0065,ING-0080,2026-02-23,4,4,Sí,
+ENC-0066,ING-0081,2026-02-26,4,4,Sí,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0067,ING-0082,2026-02-27,4,3,Sí,
+ENC-0068,ING-0083,2026-03-04,4,4,Sí,Todo estuvo listo desde el primer día.
+ENC-0069,ING-0084,2026-03-09,5,4,Sí,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0070,ING-0085,2026-03-12,3,4,Sí,
+ENC-0071,ING-0086,2026-03-16,1,3,No,Pasé varios días sin acceso a los sistemas.
+ENC-0072,ING-0087,2026-03-24,4,2,Sí,Mi tutor me ayudó mucho la primera semana.
+ENC-0073,ING-0088,2026-03-19,3,3,Sí,"La inducción fue útil, pero con mucha información junta."
+ENC-0074,ING-0093,2026-04-03,4,3,No,Mi tutor me ayudó mucho la primera semana.
+ENC-0075,ING-0094,2026-04-08,3,2,No,"La inducción fue útil, pero con mucha información junta."
+ENC-0076,ING-0095,2026-04-08,3,3,No,"En general bien, aunque algunos accesos tardaron."
+ENC-0077,ING-0096,2026-04-13,1,2,No,El primer día no tenía equipo para trabajar.
+ENC-0078,ING-0097,2026-04-10,3,3,No,
+ENC-0079,ING-0098,2026-04-16,4,3,No,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0080,ING-0099,2026-04-15,3,3,No,
+ENC-0081,ING-0100,2026-04-17,3,3,No,"En general bien, aunque algunos accesos tardaron."
+ENC-0082,ING-0101,2026-04-27,5,4,Sí,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0083,ING-0103,2026-04-29,3,4,No,"En general bien, aunque algunos accesos tardaron."
+ENC-0084,ING-0104,2026-04-29,3,3,No,"La inducción fue útil, pero con mucha información junta."
+ENC-0085,ING-0105,2026-04-30,3,4,Sí,
+ENC-0086,ING-0106,2026-05-04,4,4,No,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0087,ING-0107,2026-05-06,3,3,No,
+ENC-0088,ING-0109,2026-05-18,5,4,Sí,
+ENC-0089,ING-0110,2026-05-25,4,4,Sí,Todo estuvo listo desde el primer día.
+ENC-0090,ING-0111,2026-05-29,4,4,Sí,Mi tutor me ayudó mucho la primera semana.
+ENC-0091,ING-0112,2026-05-29,3,5,Sí,"La inducción fue útil, pero con mucha información junta."
+ENC-0092,ING-0113,2026-06-03,3,3,No,"La inducción fue útil, pero con mucha información junta."
+ENC-0093,ING-0114,2026-06-02,4,4,Sí,
+ENC-0094,ING-0115,2026-06-15,4,5,Sí,
+ENC-0095,ING-0116,2026-06-18,3,3,Sí,
+ENC-0096,ING-0117,2026-06-22,5,4,Sí,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0097,ING-0118,2026-06-25,4,4,Sí,
+ENC-0098,ING-0119,2026-06-29,4,3,No,
+ENC-0099,ING-0120,2026-07-01,4,5,Sí,
+ENC-0100,ING-0121,2026-07-02,5,4,Sí,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0101,ING-0122,2026-07-08,5,4,Sí,Mi tutor me ayudó mucho la primera semana.
+ENC-0102,ING-0123,2026-07-10,4,4,Sí,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0103,ING-0125,2026-07-20,2,3,No,
+ENC-0104,ING-0126,2026-07-27,4,3,Sí,
+ENC-0105,ING-0127,2026-07-29,4,3,Sí,
+ENC-0106,ING-0128,2026-07-30,2,2,No,
+ENC-0107,ING-0129,2026-08-03,1,2,No,
+ENC-0108,ING-0130,2026-08-03,4,4,Sí,"Muy buena inducción, me sentí bienvenido/a."
+ENC-0109,ING-0131,2026-08-03,5,4,Sí,
+ENC-0110,ING-0132,2026-08-03,4,4,Sí,Mi tutor me ayudó mucho la primera semana.
+ENC-0111,ING-0133,2026-08-11,4,4,Sí,Todo estuvo listo desde el primer día.
+ENC-0112,ING-0134,2026-08-11,4,5,Sí,
+ENC-0113,ING-0135,2026-08-12,2,3,No,Pasé varios días sin acceso a los sistemas.
+ENC-0114,ING-0136,2026-08-25,4,5,Sí,
+ENC-0115,ING-0138,2026-08-27,3,3,No,"La inducción fue útil, pero con mucha información junta."
+ENC-0116,ING-0139,2026-09-04,2,3,No,Pasé varios días sin acceso a los sistemas.
+ENC-0117,ING-0140,2026-09-04,4,4,Sí,Mi tutor me ayudó mucho la primera semana.
+ENC-0118,ING-0142,2026-09-07,2,2,No,
+ENC-0119,ING-0143,2026-09-09,4,4,Sí,Todo estuvo listo desde el primer día.
+ENC-0120,ING-0144,2026-09-14,1,3,No,Pasé varios días sin acceso a los sistemas.
+ENC-0121,ING-0145,2026-09-11,5,4,Sí,
+ENC-0122,ING-0147,2026-09-16,3,3,No,"En general bien, aunque algunos accesos tardaron."
+ENC-0123,ING-0148,2026-09-21,3,4,Sí,"La inducción fue útil, pero con mucha información junta."
+ENC-0124,ING-0149,2026-09-22,4,5,Sí,
+ENC-0125,ING-0150,2026-09-28,4,4,Sí,
+ENC-0126,ING-0151,2026-09-29,4,3,Sí,
+ENC-0127,ING-0152,2026-10-01,3,2,Sí,
+ENC-0128,ING-0155,2026-10-20,4,3,Sí,
+ENC-0129,ING-0156,2026-10-20,2,3,No,
+ENC-0130,ING-0157,2026-10-23,5,4,Sí,Mi tutor me ayudó mucho la primera semana.
+ENC-0131,ING-0158,2026-10-22,3,4,Sí,"La inducción fue útil, pero con mucha información junta."
+ENC-0132,ING-0159,2026-10-29,4,5,Sí,Todo estuvo listo desde el primer día.
+ENC-0133,ING-0160,2026-10-29,3,4,Sí,"En general bien, aunque algunos accesos tardaron."
+ENC-0134,ING-0161,2026-11-09,3,4,Sí,
+ENC-0135,ING-0162,2026-11-09,1,2,No,
+ENC-0136,ING-0163,2026-11-09,4,3,Sí,

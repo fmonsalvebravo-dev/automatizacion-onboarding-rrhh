@@ -149,6 +149,12 @@ def siguiente_dia_habil(d: date) -> date:
         d += timedelta(days=1)
     return d
 
+def dia_habil_anterior(d: date) -> date:
+    """Si cae sábado o domingo, lo mueve al viernes anterior."""
+    while d.weekday() >= 5:
+        d -= timedelta(days=1)
+    return d
+
 def dia_habil_aleatorio(anio: int, mes: int) -> date:
     """Un día hábil al azar dentro del mes."""
     primero = date(anio, mes, 1)
@@ -189,7 +195,9 @@ def crear_ingreso(fecha_ingreso: date) -> dict:
         jefatura = areas.loc[areas["Area"] == cargo["Area"], "Jefatura"].iloc[0]
 
     nombre = nombre_aleatorio()
-    anticipacion = dias_de_anticipacion()
+    # Personas registra en días hábiles: si cae en fin de semana, se registra el viernes anterior
+    registro = dia_habil_anterior(fecha_ingreso - timedelta(days=dias_de_anticipacion()))
+    anticipacion = (fecha_ingreso - registro).days
     return {
         "Nombre": nombre,
         "CorreoPersonal": correo_de(nombre).replace(DOMINIO, f"personal.{DOMINIO}"),
@@ -200,7 +208,7 @@ def crear_ingreso(fecha_ingreso: date) -> dict:
         "FechaIngreso": fecha_ingreso,
         "Jefatura": jefatura,
         "Tutor": nombre_aleatorio(),
-        "FechaRegistro": fecha_ingreso - timedelta(days=anticipacion),
+        "FechaRegistro": registro,
         "DiasAnticipacion": anticipacion,   # útil para el análisis; en la app se calcula
     }
 
@@ -214,8 +222,10 @@ for anio, mes in meses_del_periodo():
 for fecha in [date(2026, 11, 16), date(2026, 11, 23), date(2026, 11, 30),
               date(2026, 12, 1), date(2026, 12, 7)]:
     ingreso = crear_ingreso(fecha)
-    ingreso["DiasAnticipacion"] = max(ingreso["DiasAnticipacion"], (fecha - FECHA_CORTE).days + 1)
-    ingreso["FechaRegistro"] = fecha - timedelta(days=ingreso["DiasAnticipacion"])
+    # Un ingreso futuro ya tiene que estar registrado a la fecha de corte
+    if ingreso["FechaRegistro"] > FECHA_CORTE:
+        ingreso["FechaRegistro"] = dia_habil_anterior(FECHA_CORTE - timedelta(days=int(rng.integers(0, 3))))
+        ingreso["DiasAnticipacion"] = (fecha - ingreso["FechaRegistro"]).days
     filas.append(ingreso)
 
 ingresos = pd.DataFrame(filas).sort_values("FechaIngreso").reset_index(drop=True)
@@ -371,6 +381,43 @@ salidas = {
 }
 for nombre, df in salidas.items():
     df.to_csv(CARPETA_SALIDA / f"{nombre}.csv", index=False, encoding="utf-8-sig")
+
+# Versión lista para importar en Dataverse: encabezados = nombres para mostrar
+# de las columnas (así el asistente de importación las mapea solo), con un
+# número al inicio del archivo que indica el orden de importación.
+# Ingresos no lleva "Area": en Dataverse el área se obtiene a través del Cargo.
+CARPETA_DATAVERSE = CARPETA_SALIDA.parent / "csv_dataverse"
+CARPETA_DATAVERSE.mkdir(exist_ok=True)
+NOMBRES_DATAVERSE = {
+    "Areas": ("1_Area", {"Area": "Área", "Jefatura": "Jefatura", "CorreoJefatura": "Correo jefatura"}),
+    "Sucursales": ("2_Sucursal", {"Sucursal": "Sucursal", "Region": "Región", "Regional": "Regional",
+                                  "Jefatura": "Jefatura", "CorreoJefatura": "Correo jefatura"}),
+    "Responsables": ("3_Responsable", {"Rol": "Rol", "PersonaAsignada": "Persona asignada", "Correo": "Correo"}),
+    "PlantillaTareas": ("4_Plantilla_de_tarea", {"Codigo": "Código", "Tarea": "Tarea", "Responsable": "Responsable",
+                                                 "DiaRelativo": "Día relativo", "Fase": "Fase",
+                                                 "AplicaA": "Aplica a", "Activa": "Activa"}),
+    "Cargos": ("5_Cargo", {"Cargo": "Cargo", "Area": "Área", "Sede": "Sede"}),
+    "Ingresos": ("6_Ingreso", {"IngresoID": "ID ingreso", "Nombre": "Nombre colaborador",
+                               "CorreoPersonal": "Correo personal", "Cargo": "Cargo", "Sede": "Sede",
+                               "Sucursal": "Sucursal", "FechaIngreso": "Fecha de ingreso",
+                               "Jefatura": "Jefatura", "Tutor": "Tutor", "FechaRegistro": "Fecha de registro",
+                               "DiasAnticipacion": "Días de anticipación", "Estado": "Estado ingreso"}),
+    "TareasOnboarding": ("7_Tarea_de_onboarding", {"TareaID": "ID tarea", "IngresoID": "Ingreso",
+                                                    "CodigoTarea": "Plantilla", "Tarea": "Tarea", "Fase": "Fase",
+                                                    "Responsable": "Responsable", "AsignadoA": "Asignado a",
+                                                    "FechaCompromiso": "Fecha de compromiso",
+                                                    "FechaCompletado": "Fecha completado",
+                                                    "Estado": "Estado tarea", "Comentario": "Comentario"}),
+    "EncuestaOnboarding": ("8_Encuesta_de_onboarding", {"EncuestaID": "ID encuesta", "IngresoID": "Ingreso",
+                                                        "FechaRespuesta": "Fecha de respuesta",
+                                                        "SatisfaccionGeneral": "Satisfacción general",
+                                                        "ClaridadPrimerDia": "Claridad del primer día",
+                                                        "EquipoListoDia1": "Equipo listo el día 1",
+                                                        "Comentario": "Comentario"}),
+}
+for nombre, (archivo, columnas) in NOMBRES_DATAVERSE.items():
+    salidas[nombre][list(columnas)].rename(columns=columnas).to_csv(
+        CARPETA_DATAVERSE / f"{archivo}.csv", index=False, encoding="utf-8-sig")
 
 
 # ---------------------------------------------------------------------------

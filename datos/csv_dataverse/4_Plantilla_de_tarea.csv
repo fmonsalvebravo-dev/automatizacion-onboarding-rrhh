@@ -1,0 +1,16 @@
+﻿Código,Tarea,Responsable,Día relativo,Fase,Aplica a,Activa
+T01,Preparar y enviar contrato,Personas,-7,Pre-ingreso,Todos,Sí
+T02,Crear cuenta y correo corporativo,TI,-3,Pre-ingreso,Todos,Sí
+T03,Preparar y configurar notebook,TI,-2,Pre-ingreso,Casa matriz,Sí
+T04,Habilitar estación de atención en sucursal,TI,-2,Pre-ingreso,Sucursal,Sí
+T05,Asignar puesto y credencial de acceso,Administración,-1,Pre-ingreso,Todos,Sí
+T06,Asignar tutor,Jefatura,-1,Pre-ingreso,Todos,Sí
+T07,Bienvenida y entrega de equipo,Jefatura,0,Primer día,Todos,Sí
+T08,Inducción corporativa,Personas,0,Primer día,Todos,Sí
+T09,Accesos a sistemas del área,TI,2,Primera semana,Todos,Sí
+T10,Inducción del cargo,Tutor,3,Primera semana,Todos,Sí
+T11,Curso de prevención de lavado de activos,Colaborador,15,Primer mes,Todos,Sí
+T12,Curso de seguridad de la información,Colaborador,15,Primer mes,Todos,Sí
+T13,Reunión de seguimiento a 30 días,Jefatura,30,Primer mes,Todos,Sí
+T14,Encuesta de experiencia de onboarding,Colaborador,30,Primer mes,Todos,Sí
+T15,Evaluación de período de prueba,Jefatura,85,Cierre,Todos,Sí

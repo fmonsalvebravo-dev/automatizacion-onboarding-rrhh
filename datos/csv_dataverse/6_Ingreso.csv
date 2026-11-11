@@ -1,0 +1,174 @@
+﻿ID ingreso,Nombre colaborador,Correo personal,Cargo,Sede,Sucursal,Fecha de ingreso,Jefatura,Tutor,Fecha de registro,Días de anticipación,Estado ingreso
+ING-0001,Rodrigo Castro Sánchez,rodrigo.sanchez@personal.example.com,Desarrollador/a,Casa matriz,,2025-05-12,Felipe Navarro,Benjamín Flores Muñoz,2025-05-02,10,Completado
+ING-0002,Esteban Rojas Ramírez,esteban.ramirez@personal.example.com,Ejecutivo/a de atención,Sucursal,Santiago Centro,2025-05-14,Gonzalo Reyes,Fernanda Vásquez Pizarro,2025-05-07,7,Completado
+ING-0003,Cristóbal Flores Rodríguez,cristobal.rodriguez@personal.example.com,Ejecutivo/a comercial,Sucursal,Iquique,2025-05-15,Lorena Pizarro,Pablo Torres Soto,2025-05-09,6,Completado
+ING-0004,Pablo Álvarez Fuentes,pablo.fuentes@personal.example.com,Analista de operaciones,Casa matriz,,2025-05-19,Andrés Valenzuela,Rodrigo Fuentes Rojas,2025-05-02,17,Completado
+ING-0005,Constanza Pizarro Silva,constanza.silva@personal.example.com,Ejecutivo/a comercial,Sucursal,Concepción,2025-05-26,Sebastián Fuentes,Sebastián Vásquez Pizarro,2025-05-23,3,Completado
+ING-0006,Vicente Fuentes Contreras,vicente.contreras@personal.example.com,Cajero/a,Sucursal,Viña del Mar,2025-05-26,Francisca Vega,Karina Fernández Valenzuela,2025-05-19,7,Completado
+ING-0007,Macarena Vásquez Fernández,macarena.fernandez@personal.example.com,Analista de operaciones,Casa matriz,,2025-05-27,Andrés Valenzuela,Paulina Gómez Morales,2025-05-20,7,Completado
+ING-0008,Karina Núñez Ramírez,karina.ramirez@personal.example.com,Ejecutivo/a comercial,Sucursal,Calama,2025-06-11,Verónica Tapia,Javiera Ramírez Morales,2025-05-28,14,Completado
+ING-0009,Matías Araya Soto,matias.soto@personal.example.com,Ejecutivo/a comercial,Sucursal,Rancagua,2025-06-16,Mauricio Flores,Cristóbal Reyes Tapia,2025-06-05,11,Completado
+ING-0010,Nicolás Castillo Valenzuela,nicolas.valenzuela@personal.example.com,Analista de soporte,Casa matriz,,2025-06-17,Felipe Navarro,Bárbara Tapia Muñoz,2025-06-03,14,Completado
+ING-0011,Agustín González Sánchez,agustin.sanchez@personal.example.com,Cajero/a,Sucursal,Antofagasta,2025-06-20,Cristián Araya,Benjamín Pizarro Sepúlveda,2025-06-13,7,Completado
+ING-0012,Valentina Soto Martínez,valentina.martinez@personal.example.com,Ejecutivo/a comercial,Sucursal,Santiago Centro,2025-06-24,Gonzalo Reyes,Ignacio Araya Ramírez,2025-06-19,5,Completado
+ING-0013,Constanza Díaz Vásquez,constanza.vasquez@personal.example.com,Ejecutivo/a comercial,Sucursal,Arica,2025-06-25,Héctor Morales,Felipe Soto Gómez,2025-06-12,13,Completado
+ING-0014,Catalina Castillo Espinoza,catalina.espinoza@personal.example.com,Analista de riesgo,Casa matriz,,2025-06-27,Paula Herrera,Karina Hernández Torres,2025-06-20,7,Completado
+ING-0015,Ignacio Soto Castro,ignacio.castro@personal.example.com,Ejecutivo/a de atención,Sucursal,Calama,2025-07-01,Verónica Tapia,Agustín Contreras Morales,2025-06-23,8,Completado
+ING-0016,Agustín Araya Álvarez,agustin.alvarez@personal.example.com,Asistente de remuneraciones,Casa matriz,,2025-07-09,Daniela Muñoz,Benjamín Gómez Pérez,2025-06-27,12,Completado
+ING-0017,Lucas Castillo Valenzuela,lucas.valenzuela@personal.example.com,Cajero/a,Sucursal,Calama,2025-07-15,Verónica Tapia,Camila Vásquez Flores,2025-07-14,1,Completado
+ING-0018,Matías Castro Flores,matias.flores@personal.example.com,Cajero/a,Sucursal,Calama,2025-07-15,Verónica Tapia,Joaquín Valenzuela Flores,2025-07-14,1,Completado
+ING-0019,Fernanda Tapia Díaz,fernanda.diaz@personal.example.com,Ejecutivo/a de atención,Sucursal,Puente Alto,2025-07-23,Claudia Sepúlveda,Martín Hernández Sánchez,2025-07-10,13,Completado
+ING-0020,Vicente Ramírez Torres,vicente.torres@personal.example.com,Ejecutivo/a de atención,Sucursal,Santiago Centro,2025-07-25,Gonzalo Reyes,Lucas González Gómez,2025-07-15,10,Completado
+ING-0021,Tamara Reyes Tapia,tamara.tapia@personal.example.com,Desarrollador/a,Casa matriz,,2025-07-30,Felipe Navarro,Álvaro Torres Flores,2025-07-21,9,Completado
+ING-0022,Álvaro Fuentes Gómez,alvaro.gomez@personal.example.com,Ejecutivo/a de atención,Sucursal,La Serena,2025-07-31,Rodrigo Castillo,Josefa Vásquez Herrera,2025-07-25,6,Completado
+ING-0023,Matías Espinoza Gutiérrez,matias.gutierrez@personal.example.com,Ejecutivo/a comercial,Sucursal,Iquique,2025-08-04,Lorena Pizarro,Bárbara Herrera Cortés,2025-08-01,3,Completado
+ING-0024,Martina Gómez Pérez,martina.perez@personal.example.com,Analista de personas,Casa matriz,,2025-08-04,Daniela Muñoz,Camila Vásquez López,2025-07-23,12,Completado
+ING-0025,Constanza Gutiérrez Castro,constanza.castro@personal.example.com,Analista de riesgo,Casa matriz,,2025-08-05,Paula Herrera,Ignacio Álvarez Álvarez,2025-07-25,11,Completado
+ING-0026,Fernanda Álvarez Contreras,fernanda.contreras@personal.example.com,Analista contable,Casa matriz,,2025-08-05,Jorge Espinoza,Esteban Muñoz Silva,2025-07-23,13,Completado
+ING-0027,Felipe Díaz Álvarez,felipe.alvarez@personal.example.com,Analista comercial,Casa matriz,,2025-08-07,Marcela Contreras,Catalina Castillo Cortés,2025-07-25,13,Completado
+ING-0028,Álvaro Pérez Morales,alvaro.morales@personal.example.com,Ejecutivo/a de atención,Sucursal,Rancagua,2025-08-07,Mauricio Flores,Martín Castillo Torres,2025-08-01,6,Cancelado
+ING-0029,Fernanda Valenzuela Muñoz,fernanda.munoz@personal.example.com,Asistente de operaciones,Casa matriz,,2025-08-08,Andrés Valenzuela,Gabriel Soto Gómez,2025-07-24,15,Completado
+ING-0030,Macarena Herrera Flores,macarena.flores@personal.example.com,Analista de riesgo,Casa matriz,,2025-08-08,Paula Herrera,Pablo González Contreras,2025-07-25,14,Completado
+ING-0031,Álvaro Rodríguez Silva,alvaro.silva@personal.example.com,Asistente de remuneraciones,Casa matriz,,2025-08-11,Daniela Muñoz,Nicolás Espinoza Gómez,2025-07-25,17,Completado
+ING-0032,Fernanda Reyes Ramírez,fernanda.ramirez@personal.example.com,Analista comercial,Casa matriz,,2025-08-15,Marcela Contreras,Sebastián Torres González,2025-08-07,8,Completado
+ING-0033,Sebastián Álvarez Fuentes,sebastian.fuentes@personal.example.com,Cajero/a,Sucursal,Iquique,2025-08-20,Lorena Pizarro,Álvaro Martínez Muñoz,2025-08-18,2,Completado
+ING-0034,Rodrigo Núñez Martínez,rodrigo.martinez@personal.example.com,Cajero/a,Sucursal,Puente Alto,2025-08-28,Claudia Sepúlveda,Tomás Valenzuela Fuentes,2025-08-19,9,Completado
+ING-0035,Pablo Álvarez Sánchez,pablo.sanchez@personal.example.com,Asistente de operaciones,Casa matriz,,2025-08-29,Andrés Valenzuela,Agustín Ramírez González,2025-08-15,14,Completado
+ING-0036,Rodrigo Díaz Díaz,rodrigo.diaz@personal.example.com,Analista de cobranza,Casa matriz,,2025-09-01,Paula Herrera,Karina Cortés Castro,2025-08-18,14,Completado
+ING-0037,Agustín Araya Martínez,agustin.martinez@personal.example.com,Analista de riesgo,Casa matriz,,2025-09-03,Paula Herrera,Diego Cortés Carrasco,2025-08-20,14,Completado
+ING-0038,Rodrigo Martínez Núñez,rodrigo.nunez@personal.example.com,Asistente de remuneraciones,Casa matriz,,2025-09-03,Daniela Muñoz,Agustín Reyes Gutiérrez,2025-08-28,6,Completado
+ING-0039,Tomás González Pizarro,tomas.pizarro@personal.example.com,Ejecutivo/a comercial,Sucursal,Iquique,2025-09-09,Lorena Pizarro,Lucas Muñoz Torres,2025-09-01,8,Completado
+ING-0040,Macarena Rodríguez Cortés,macarena.cortes@personal.example.com,Analista de operaciones,Casa matriz,,2025-09-10,Andrés Valenzuela,Diego Soto Soto,2025-09-09,1,Completado
+ING-0041,Martina Martínez Martínez,martina.martinez@personal.example.com,Ejecutivo/a de atención,Sucursal,Concepción,2025-09-16,Sebastián Fuentes,Karina Morales Muñoz,2025-09-01,15,Completado
+ING-0042,Sebastián Ramírez Fernández,sebastian.fernandez@personal.example.com,Ejecutivo/a de atención,Sucursal,Puerto Montt,2025-09-16,Ignacia Cárdenas,Javiera Flores Tapia,2025-09-01,15,Completado
+ING-0043,Karina Fernández Rodríguez,karina.rodriguez@personal.example.com,Asistente de remuneraciones,Casa matriz,,2025-09-18,Daniela Muñoz,Esteban Sánchez Ramírez,2025-09-05,13,Completado
+ING-0044,Paulina Cortés Torres,paulina.torres@personal.example.com,Ejecutivo/a comercial,Sucursal,Iquique,2025-09-23,Lorena Pizarro,Esteban Sepúlveda Araya,2025-09-16,7,Cancelado
+ING-0045,Isidora Contreras Pérez,isidora.perez@personal.example.com,Analista de operaciones,Casa matriz,,2025-10-02,Andrés Valenzuela,Matías Araya Castro,2025-09-19,13,Completado
+ING-0046,Isidora Castro Martínez,isidora.martinez@personal.example.com,Ejecutivo/a comercial,Sucursal,La Serena,2025-10-13,Rodrigo Castillo,Cristóbal Gómez Ramírez,2025-10-10,3,Completado
+ING-0047,Álvaro Ramírez Flores,alvaro.flores@personal.example.com,Ejecutivo/a comercial,Sucursal,Santiago Centro,2025-10-16,Gonzalo Reyes,Tomás Valenzuela Vásquez,2025-10-10,6,Completado
+ING-0048,Agustín Espinoza Flores,agustin.flores@personal.example.com,Analista de tesorería,Casa matriz,,2025-10-17,Jorge Espinoza,Pablo Ramírez Pérez,2025-10-08,9,Completado
+ING-0049,Joaquín Díaz Espinoza,joaquin.espinoza@personal.example.com,Ejecutivo/a comercial,Sucursal,Rancagua,2025-10-21,Mauricio Flores,Álvaro Herrera Contreras,2025-10-06,15,Completado
+ING-0050,Daniela Flores Soto,daniela.soto@personal.example.com,Ejecutivo/a de atención,Sucursal,Iquique,2025-10-21,Lorena Pizarro,Tamara Fuentes Espinoza,2025-10-10,11,Completado
+ING-0051,Valentina Silva Tapia,valentina.tapia@personal.example.com,Ejecutivo/a de atención,Sucursal,Rancagua,2025-10-21,Mauricio Flores,Pablo Pérez Herrera,2025-10-17,4,Completado
+ING-0052,Macarena Espinoza Herrera,macarena.herrera@personal.example.com,Cajero/a,Sucursal,Santiago Centro,2025-10-24,Gonzalo Reyes,Agustín Fuentes Castro,2025-10-10,14,Completado
+ING-0053,Agustín Núñez Sánchez,agustin.sanchez@personal.example.com,Desarrollador/a,Casa matriz,,2025-10-27,Felipe Navarro,Josefa Pizarro Tapia,2025-10-24,3,Completado
+ING-0054,Paulina Pérez Álvarez,paulina.alvarez@personal.example.com,Cajero/a,Sucursal,Rancagua,2025-11-04,Mauricio Flores,Pablo López Sánchez,2025-10-20,15,Completado
+ING-0055,Sebastián Torres Cortés,sebastian.cortes@personal.example.com,Ejecutivo/a comercial,Sucursal,Puente Alto,2025-11-05,Claudia Sepúlveda,Sebastián López Álvarez,2025-10-29,7,Completado
+ING-0056,Cristóbal Morales Sánchez,cristobal.sanchez@personal.example.com,Analista de tesorería,Casa matriz,,2025-11-12,Jorge Espinoza,Ignacio Núñez González,2025-10-29,14,Completado
+ING-0057,Daniela González Morales,daniela.morales@personal.example.com,Ejecutivo/a de atención,Sucursal,Calama,2025-11-13,Verónica Tapia,Agustín Valenzuela Díaz,2025-11-10,3,Completado
+ING-0058,Gabriel González Pizarro,gabriel.pizarro@personal.example.com,Ejecutivo/a comercial,Sucursal,Puente Alto,2025-11-19,Claudia Sepúlveda,Catalina Sepúlveda Ramírez,2025-11-17,2,Completado
+ING-0059,Constanza Castro Gómez,constanza.gomez@personal.example.com,Analista de datos,Casa matriz,,2025-11-20,Felipe Navarro,Martina Araya Soto,2025-11-11,9,Completado
+ING-0060,Álvaro Martínez Morales,alvaro.morales@personal.example.com,Analista de datos,Casa matriz,,2025-11-25,Felipe Navarro,Cristóbal Sánchez Herrera,2025-11-11,14,Completado
+ING-0061,Rodrigo Morales Gutiérrez,rodrigo.gutierrez@personal.example.com,Cajero/a,Sucursal,Arica,2025-11-26,Héctor Morales,Camila Soto Muñoz,2025-11-18,8,Completado
+ING-0062,Diego Muñoz Castro,diego.castro@personal.example.com,Ejecutivo/a comercial,Sucursal,Viña del Mar,2025-11-26,Francisca Vega,Benjamín Álvarez Fernández,2025-11-18,8,Completado
+ING-0063,Josefa Sánchez Fuentes,josefa.fuentes@personal.example.com,Analista de datos,Casa matriz,,2025-11-26,Felipe Navarro,Fernanda Herrera Soto,2025-11-14,12,Completado
+ING-0064,Vicente Núñez Álvarez,vicente.alvarez@personal.example.com,Analista de riesgo,Casa matriz,,2025-12-01,Paula Herrera,Javiera Reyes González,2025-11-19,12,Completado
+ING-0065,Felipe Hernández Contreras,felipe.contreras@personal.example.com,Desarrollador/a,Casa matriz,,2025-12-01,Felipe Navarro,Isidora Fuentes Núñez,2025-11-17,14,Completado
+ING-0066,Lucas Ramírez Araya,lucas.araya@personal.example.com,Asistente de remuneraciones,Casa matriz,,2025-12-03,Daniela Muñoz,Catalina Pérez Pizarro,2025-11-25,8,Completado
+ING-0067,Felipe Sepúlveda Gutiérrez,felipe.gutierrez@personal.example.com,Analista de soporte,Casa matriz,,2025-12-09,Felipe Navarro,Fernanda Araya Espinoza,2025-12-08,1,Completado
+ING-0068,Matías Flores Soto,matias.soto@personal.example.com,Ejecutivo/a de atención,Sucursal,Viña del Mar,2025-12-10,Francisca Vega,Tamara Castillo Tapia,2025-12-01,9,Completado
+ING-0069,Nicolás Díaz Ramírez,nicolas.ramirez@personal.example.com,Analista de soporte,Casa matriz,,2025-12-16,Felipe Navarro,Sebastián Muñoz Contreras,2025-12-02,14,Completado
+ING-0070,Josefa Reyes Carrasco,josefa.carrasco@personal.example.com,Desarrollador/a,Casa matriz,,2025-12-18,Felipe Navarro,Martina Herrera Valenzuela,2025-12-05,13,Completado
+ING-0071,Catalina Núñez Pérez,catalina.perez@personal.example.com,Ejecutivo/a comercial,Sucursal,Iquique,2025-12-22,Lorena Pizarro,Bárbara Reyes Torres,2025-12-12,10,Completado
+ING-0072,Ignacio Reyes Rodríguez,ignacio.rodriguez@personal.example.com,Analista de datos,Casa matriz,,2025-12-23,Felipe Navarro,Tomás Silva Torres,2025-12-17,6,Completado
+ING-0073,Álvaro Hernández Soto,alvaro.soto@personal.example.com,Analista de datos,Casa matriz,,2025-12-25,Felipe Navarro,Álvaro Tapia Tapia,2025-12-12,13,Completado
+ING-0074,Javiera Núñez Araya,javiera.araya@personal.example.com,Ejecutivo/a comercial,Sucursal,Puerto Montt,2026-01-05,Ignacia Cárdenas,Martín Castro Soto,2025-12-22,14,Completado
+ING-0075,Gabriel Herrera Castillo,gabriel.castillo@personal.example.com,Analista de tesorería,Casa matriz,,2026-01-06,Jorge Espinoza,Gabriel Gutiérrez Soto,2025-12-30,7,Completado
+ING-0076,Pablo Muñoz Reyes,pablo.reyes@personal.example.com,Asistente de operaciones,Casa matriz,,2026-01-09,Andrés Valenzuela,Isidora Flores Núñez,2025-12-31,9,Completado
+ING-0077,Macarena Espinoza Ramírez,macarena.ramirez@personal.example.com,Asistente de operaciones,Casa matriz,,2026-01-16,Andrés Valenzuela,Catalina Rojas Rojas,2026-01-08,8,Completado
+ING-0078,Javiera Ramírez Vásquez,javiera.vasquez@personal.example.com,Ejecutivo/a comercial,Sucursal,Calama,2026-01-16,Verónica Tapia,Benjamín Cortés Soto,2026-01-05,11,Completado
+ING-0079,Lucas Álvarez Castillo,lucas.castillo@personal.example.com,Cajero/a,Sucursal,Santiago Centro,2026-01-20,Gonzalo Reyes,Bastián Espinoza Álvarez,2026-01-16,4,Completado
+ING-0080,Tamara González Castro,tamara.castro@personal.example.com,Cajero/a,Sucursal,Puente Alto,2026-01-22,Claudia Sepúlveda,Benjamín Soto Pizarro,2026-01-13,9,Completado
+ING-0081,Felipe Ramírez Hernández,felipe.hernandez@personal.example.com,Analista comercial,Casa matriz,,2026-01-28,Marcela Contreras,Martina Tapia Castro,2026-01-16,12,Completado
+ING-0082,Bárbara Castillo López,barbara.lopez@personal.example.com,Cajero/a,Sucursal,Arica,2026-01-28,Héctor Morales,Macarena Rojas Álvarez,2026-01-15,13,Completado
+ING-0083,Lucas Torres Gutiérrez,lucas.gutierrez@personal.example.com,Analista de operaciones,Casa matriz,,2026-02-03,Andrés Valenzuela,Daniela Herrera Díaz,2026-01-28,6,Completado
+ING-0084,Josefa González Tapia,josefa.tapia@personal.example.com,Ejecutivo/a de atención,Sucursal,Antofagasta,2026-02-05,Cristián Araya,Daniela Rodríguez Soto,2026-01-21,15,Completado
+ING-0085,Vicente Díaz González,vicente.gonzalez@personal.example.com,Cajero/a,Sucursal,Santiago Centro,2026-02-10,Gonzalo Reyes,Nicolás Reyes Hernández,2026-02-06,4,Completado
+ING-0086,Rodrigo Espinoza Pizarro,rodrigo.pizarro@personal.example.com,Analista de datos,Casa matriz,,2026-02-13,Felipe Navarro,Agustín Araya Carrasco,2026-02-10,3,Completado
+ING-0087,Paulina Espinoza Torres,paulina.torres@personal.example.com,Asistente de remuneraciones,Casa matriz,,2026-02-16,Daniela Muñoz,Catalina Ramírez Fuentes,2026-01-30,17,Completado
+ING-0088,Isidora Pizarro Espinoza,isidora.espinoza@personal.example.com,Ejecutivo/a comercial,Sucursal,Calama,2026-02-17,Verónica Tapia,Agustín Reyes Carrasco,2026-02-13,4,Completado
+ING-0089,Martina Ramírez Ramírez,martina.ramirez@personal.example.com,Ejecutivo/a comercial,Sucursal,Calama,2026-02-20,Verónica Tapia,Ignacio Hernández Castro,2026-02-13,7,Completado
+ING-0090,Paulina Álvarez Valenzuela,paulina.valenzuela@personal.example.com,Cajero/a,Sucursal,Rancagua,2026-02-23,Mauricio Flores,Bastián Rodríguez Flores,2026-02-06,17,Completado
+ING-0091,Álvaro Álvarez Reyes,alvaro.reyes@personal.example.com,Cajero/a,Sucursal,Rancagua,2026-02-27,Mauricio Flores,Bárbara Muñoz Espinoza,2026-02-17,10,Completado
+ING-0092,Agustín Sepúlveda Cortés,agustin.cortes@personal.example.com,Analista de soporte,Casa matriz,,2026-03-03,Felipe Navarro,Valentina Muñoz Fuentes,2026-02-26,5,Completado
+ING-0093,Bárbara Rojas Castillo,barbara.castillo@personal.example.com,Analista comercial,Casa matriz,,2026-03-05,Marcela Contreras,Agustín Reyes Torres,2026-02-27,6,Completado
+ING-0094,Karina Pizarro Gómez,karina.gomez@personal.example.com,Cajero/a,Sucursal,Talca,2026-03-09,Natalia Bravo,Martina Hernández Ramírez,2026-03-04,5,Completado
+ING-0095,Catalina Castillo Contreras,catalina.contreras@personal.example.com,Ejecutivo/a comercial,Sucursal,Iquique,2026-03-10,Lorena Pizarro,Sebastián Tapia Rojas,2026-03-03,7,Completado
+ING-0096,Martina Díaz Reyes,martina.reyes@personal.example.com,Cajero/a,Sucursal,Concepción,2026-03-12,Sebastián Fuentes,Camila Herrera Espinoza,2026-03-10,2,Completado
+ING-0097,Matías López Pérez,matias.perez@personal.example.com,Asistente de operaciones,Casa matriz,,2026-03-12,Andrés Valenzuela,Javiera López Silva,2026-03-04,8,Completado
+ING-0098,Rodrigo Fuentes Martínez,rodrigo.martinez@personal.example.com,Ejecutivo/a comercial,Sucursal,La Serena,2026-03-17,Rodrigo Castillo,Rodrigo Rodríguez Valenzuela,2026-03-02,15,Completado
+ING-0099,Rodrigo Morales Pizarro,rodrigo.pizarro@personal.example.com,Analista de cobranza,Casa matriz,,2026-03-17,Paula Herrera,Catalina Sepúlveda Valenzuela,2026-03-05,12,Completado
+ING-0100,Nicolás Carrasco López,nicolas.lopez@personal.example.com,Ejecutivo/a de atención,Sucursal,Puerto Montt,2026-03-18,Ignacia Cárdenas,Álvaro Herrera Vásquez,2026-03-03,15,Completado
+ING-0101,Diego Castro Sepúlveda,diego.sepulveda@personal.example.com,Desarrollador/a,Casa matriz,,2026-03-26,Felipe Navarro,Josefa Sánchez Araya,2026-03-20,6,Completado
+ING-0102,Cristóbal López Araya,cristobal.araya@personal.example.com,Cajero/a,Sucursal,Iquique,2026-03-27,Lorena Pizarro,Tomás Núñez Reyes,2026-03-20,7,Completado
+ING-0103,Cristóbal Vásquez Pizarro,cristobal.pizarro@personal.example.com,Ejecutivo/a de atención,Sucursal,Puerto Montt,2026-03-30,Ignacia Cárdenas,Esteban Álvarez Álvarez,2026-03-25,5,Completado
+ING-0104,Nicolás Gutiérrez González,nicolas.gonzalez@personal.example.com,Analista de personas,Casa matriz,,2026-03-31,Daniela Muñoz,Bárbara Rodríguez Contreras,2026-03-20,11,Completado
+ING-0105,Bastián Araya Rodríguez,bastian.rodriguez@personal.example.com,Desarrollador/a,Casa matriz,,2026-03-31,Felipe Navarro,Javiera Sánchez Gutiérrez,2026-03-16,15,Completado
+ING-0106,Macarena Hernández Torres,macarena.torres@personal.example.com,Ejecutivo/a comercial,Sucursal,Arica,2026-04-03,Héctor Morales,Bastián Valenzuela Sepúlveda,2026-03-27,7,Completado
+ING-0107,Ignacio Rodríguez Herrera,ignacio.herrera@personal.example.com,Ejecutivo/a comercial,Sucursal,Viña del Mar,2026-04-06,Francisca Vega,Daniela Soto Muñoz,2026-03-20,17,Completado
+ING-0108,Matías Carrasco Castro,matias.castro@personal.example.com,Ejecutivo/a de atención,Sucursal,Concepción,2026-04-08,Sebastián Fuentes,Macarena Martínez Cortés,2026-03-26,13,Completado
+ING-0109,Felipe Contreras Soto,felipe.soto@personal.example.com,Ejecutivo/a de atención,Sucursal,Concepción,2026-04-15,Sebastián Fuentes,Catalina González Cortés,2026-04-03,12,Completado
+ING-0110,Catalina Reyes Fuentes,catalina.fuentes@personal.example.com,Ejecutivo/a de atención,Sucursal,Concepción,2026-04-24,Sebastián Fuentes,Felipe Araya Silva,2026-04-09,15,Completado
+ING-0111,Valentina Muñoz Martínez,valentina.martinez@personal.example.com,Cajero/a,Sucursal,Calama,2026-04-29,Verónica Tapia,Benjamín Sepúlveda Espinoza,2026-04-14,15,Completado
+ING-0112,Karina Soto González,karina.gonzalez@personal.example.com,Ejecutivo/a de atención,Sucursal,Antofagasta,2026-04-30,Cristián Araya,Esteban Soto González,2026-04-17,13,Completado
+ING-0113,Fernanda Díaz Pizarro,fernanda.pizarro@personal.example.com,Cajero/a,Sucursal,Arica,2026-05-01,Héctor Morales,Constanza Castillo Martínez,2026-04-17,14,Completado
+ING-0114,Catalina Núñez Sepúlveda,catalina.sepulveda@personal.example.com,Asistente de operaciones,Casa matriz,,2026-05-04,Andrés Valenzuela,Tomás Núñez Castillo,2026-04-24,10,Completado
+ING-0115,Rodrigo Soto Tapia,rodrigo.tapia@personal.example.com,Cajero/a,Sucursal,Iquique,2026-05-11,Lorena Pizarro,Fernanda Castro Castro,2026-04-27,14,Completado
+ING-0116,Camila Morales Ramírez,camila.ramirez@personal.example.com,Desarrollador/a,Casa matriz,,2026-05-19,Felipe Navarro,Fernanda Gómez Vásquez,2026-05-13,6,Completado
+ING-0117,Agustín Pérez Tapia,agustin.tapia@personal.example.com,Cajero/a,Sucursal,Santiago Centro,2026-05-22,Gonzalo Reyes,Karina Reyes Rodríguez,2026-05-08,14,Completado
+ING-0118,Tamara Fuentes González,tamara.gonzalez@personal.example.com,Ejecutivo/a de atención,Sucursal,Rancagua,2026-05-26,Mauricio Flores,Sebastián Ramírez Pizarro,2026-05-13,13,Completado
+ING-0119,Pablo Castillo Araya,pablo.araya@personal.example.com,Cajero/a,Sucursal,Antofagasta,2026-05-29,Cristián Araya,Gabriel Rojas Fuentes,2026-05-22,7,Completado
+ING-0120,Bárbara López Gutiérrez,barbara.gutierrez@personal.example.com,Analista de operaciones,Casa matriz,,2026-06-02,Andrés Valenzuela,Camila Muñoz Tapia,2026-05-28,5,Completado
+ING-0121,Tomás Sánchez Herrera,tomas.herrera@personal.example.com,Analista de personas,Casa matriz,,2026-06-02,Daniela Muñoz,Agustín Gómez Pizarro,2026-05-21,12,Completado
+ING-0122,Bastián Sepúlveda Reyes,bastian.reyes@personal.example.com,Asistente de operaciones,Casa matriz,,2026-06-04,Andrés Valenzuela,Vicente Hernández Vásquez,2026-05-22,13,Completado
+ING-0123,Fernanda López Herrera,fernanda.herrera@personal.example.com,Desarrollador/a,Casa matriz,,2026-06-11,Felipe Navarro,Antonia Cortés Ramírez,2026-05-29,13,Completado
+ING-0124,Constanza Carrasco Hernández,constanza.hernandez@personal.example.com,Analista de operaciones,Casa matriz,,2026-06-11,Andrés Valenzuela,Isidora Sepúlveda Pizarro,2026-06-05,6,Completado
+ING-0125,Joaquín Sepúlveda Vásquez,joaquin.vasquez@personal.example.com,Asistente de remuneraciones,Casa matriz,,2026-06-19,Daniela Muñoz,Daniela Cortés Espinoza,2026-06-18,1,Completado
+ING-0126,Constanza González Silva,constanza.silva@personal.example.com,Analista de soporte,Casa matriz,,2026-06-26,Felipe Navarro,Camila Silva Núñez,2026-06-19,7,Completado
+ING-0127,Tamara Espinoza Torres,tamara.torres@personal.example.com,Analista comercial,Casa matriz,,2026-06-29,Marcela Contreras,Martín Gómez Gutiérrez,2026-06-18,11,Completado
+ING-0128,Benjamín Carrasco Álvarez,benjamin.alvarez@personal.example.com,Cajero/a,Sucursal,La Serena,2026-06-30,Rodrigo Castillo,Paulina Hernández Espinoza,2026-06-26,4,Completado
+ING-0129,Valentina González Flores,valentina.flores@personal.example.com,Ejecutivo/a comercial,Sucursal,Iquique,2026-07-02,Lorena Pizarro,Ignacio Castro Flores,2026-07-01,1,Completado
+ING-0130,Nicolás Hernández Valenzuela,nicolas.valenzuela@personal.example.com,Analista de personas,Casa matriz,,2026-07-03,Daniela Muñoz,Josefa Araya Soto,2026-06-25,8,Completado
+ING-0131,Vicente Álvarez Álvarez,vicente.alvarez@personal.example.com,Analista contable,Casa matriz,,2026-07-03,Jorge Espinoza,Bastián Hernández Díaz,2026-06-23,10,Completado
+ING-0132,Esteban López Morales,esteban.morales@personal.example.com,Analista de datos,Casa matriz,,2026-07-03,Felipe Navarro,Isidora Flores Espinoza,2026-06-18,15,Completado
+ING-0133,Esteban Reyes Hernández,esteban.hernandez@personal.example.com,Analista de tesorería,Casa matriz,,2026-07-13,Jorge Espinoza,Diego Castillo Castillo,2026-07-03,10,Completado
+ING-0134,Joaquín Cortés Espinoza,joaquin.espinoza@personal.example.com,Analista de cobranza,Casa matriz,,2026-07-13,Paula Herrera,Tamara Fuentes Fuentes,2026-07-02,11,Completado
+ING-0135,Macarena Castro Muñoz,macarena.munoz@personal.example.com,Ejecutivo/a de atención,Sucursal,Iquique,2026-07-14,Lorena Pizarro,Sebastián Martínez Silva,2026-07-10,4,Completado
+ING-0136,Diego Rojas Hernández,diego.hernandez@personal.example.com,Analista de tesorería,Casa matriz,,2026-07-21,Jorge Espinoza,Martina Valenzuela Torres,2026-07-10,11,Completado
+ING-0137,Antonia Tapia Cortés,antonia.cortes@personal.example.com,Analista comercial,Casa matriz,,2026-07-24,Marcela Contreras,Rodrigo Álvarez Díaz,2026-07-15,9,Cancelado
+ING-0138,Bárbara Rodríguez Vásquez,barbara.vasquez@personal.example.com,Ejecutivo/a de atención,Sucursal,Iquique,2026-07-29,Lorena Pizarro,Rodrigo Díaz Núñez,2026-07-24,5,Completado
+ING-0139,Sebastián López Valenzuela,sebastian.valenzuela@personal.example.com,Analista contable,Casa matriz,,2026-08-05,Jorge Espinoza,Macarena Martínez Morales,2026-07-24,12,Completado
+ING-0140,Esteban González Vásquez,esteban.vasquez@personal.example.com,Analista comercial,Casa matriz,,2026-08-06,Marcela Contreras,Matías Araya Valenzuela,2026-07-27,10,Completado
+ING-0141,Álvaro Silva Soto,alvaro.soto@personal.example.com,Analista de operaciones,Casa matriz,,2026-08-06,Andrés Valenzuela,Paulina Pérez Soto,2026-07-27,10,Cancelado
+ING-0142,Ignacio Vásquez González,ignacio.gonzalez@personal.example.com,Cajero/a,Sucursal,Calama,2026-08-07,Verónica Tapia,Bárbara Carrasco Rojas,2026-08-05,2,Completado
+ING-0143,Isidora Gutiérrez Hernández,isidora.hernandez@personal.example.com,Analista de datos,Casa matriz,,2026-08-10,Felipe Navarro,Martina Carrasco Pizarro,2026-07-31,10,En curso
+ING-0144,Catalina López Pérez,catalina.perez@personal.example.com,Ejecutivo/a comercial,Sucursal,La Serena,2026-08-13,Rodrigo Castillo,Matías Ramírez Herrera,2026-08-12,1,Completado
+ING-0145,Fernanda Sánchez Reyes,fernanda.reyes@personal.example.com,Ejecutivo/a comercial,Sucursal,Viña del Mar,2026-08-13,Francisca Vega,Pablo Gutiérrez Rodríguez,2026-08-04,9,Completado
+ING-0146,Ignacio Gutiérrez Tapia,ignacio.tapia@personal.example.com,Cajero/a,Sucursal,Calama,2026-08-13,Verónica Tapia,Álvaro Espinoza López,2026-07-31,13,Cancelado
+ING-0147,Gabriel Ramírez Tapia,gabriel.tapia@personal.example.com,Asistente de operaciones,Casa matriz,,2026-08-18,Andrés Valenzuela,Bárbara Gómez Álvarez,2026-08-10,8,Completado
+ING-0148,Agustín Gutiérrez Reyes,agustin.reyes@personal.example.com,Ejecutivo/a de atención,Sucursal,Arica,2026-08-18,Héctor Morales,Agustín Fernández Silva,2026-08-12,6,Completado
+ING-0149,Tomás Vásquez Gutiérrez,tomas.gutierrez@personal.example.com,Desarrollador/a,Casa matriz,,2026-08-24,Felipe Navarro,Álvaro Pizarro Fuentes,2026-08-14,10,En curso
+ING-0150,Javiera Araya Herrera,javiera.herrera@personal.example.com,Cajero/a,Sucursal,Puente Alto,2026-08-28,Claudia Sepúlveda,Ignacio Contreras Ramírez,2026-08-17,11,En curso
+ING-0151,Sebastián Fuentes Araya,sebastian.araya@personal.example.com,Asistente de remuneraciones,Casa matriz,,2026-08-31,Daniela Muñoz,Pablo Castro López,2026-08-17,14,En curso
+ING-0152,Álvaro Tapia Fuentes,alvaro.fuentes@personal.example.com,Cajero/a,Sucursal,Concepción,2026-09-01,Sebastián Fuentes,Bastián Ramírez Rodríguez,2026-08-28,4,En curso
+ING-0153,Matías Torres Reyes,matias.reyes@personal.example.com,Analista de personas,Casa matriz,,2026-09-10,Daniela Muñoz,Martina Hernández Gómez,2026-08-27,14,En curso
+ING-0154,Antonia Herrera Valenzuela,antonia.valenzuela@personal.example.com,Analista de personas,Casa matriz,,2026-09-21,Daniela Muñoz,Álvaro Castillo Tapia,2026-09-14,7,En curso
+ING-0155,Benjamín Torres Sepúlveda,benjamin.sepulveda@personal.example.com,Cajero/a,Sucursal,La Serena,2026-09-21,Rodrigo Castillo,Macarena Castro Pérez,2026-09-11,10,En curso
+ING-0156,Camila Carrasco Rodríguez,camila.rodriguez@personal.example.com,Analista de riesgo,Casa matriz,,2026-09-21,Paula Herrera,Agustín Cortés Ramírez,2026-09-11,10,En curso
+ING-0157,Javiera Rodríguez Pizarro,javiera.pizarro@personal.example.com,Analista de riesgo,Casa matriz,,2026-09-23,Paula Herrera,Daniela Castro Valenzuela,2026-09-08,15,En curso
+ING-0158,Fernanda Pizarro Tapia,fernanda.tapia@personal.example.com,Cajero/a,Sucursal,Santiago Centro,2026-09-23,Gonzalo Reyes,Macarena Torres Contreras,2026-09-18,5,En curso
+ING-0159,Isidora Pérez Carrasco,isidora.carrasco@personal.example.com,Asistente de operaciones,Casa matriz,,2026-09-23,Andrés Valenzuela,Bárbara Morales Morales,2026-09-11,12,En curso
+ING-0160,Pablo Núñez González,pablo.gonzalez@personal.example.com,Analista de tesorería,Casa matriz,,2026-09-29,Jorge Espinoza,Martina Vásquez Díaz,2026-09-22,7,En curso
+ING-0161,Valentina Fuentes Castro,valentina.castro@personal.example.com,Ejecutivo/a comercial,Sucursal,Antofagasta,2026-10-09,Cristián Araya,Agustín Castro Fernández,2026-09-29,10,En curso
+ING-0162,Daniela Hernández Reyes,daniela.reyes@personal.example.com,Ejecutivo/a de atención,Sucursal,Arica,2026-10-09,Héctor Morales,Gabriel Reyes Rojas,2026-10-07,2,En curso
+ING-0163,Bárbara Ramírez Castillo,barbara.castillo@personal.example.com,Asistente de operaciones,Casa matriz,,2026-10-09,Andrés Valenzuela,Valentina López Araya,2026-09-30,9,En curso
+ING-0164,Ignacio Reyes Morales,ignacio.morales@personal.example.com,Ejecutivo/a comercial,Sucursal,Puente Alto,2026-10-20,Claudia Sepúlveda,Diego Fuentes Hernández,2026-10-09,11,En curso
+ING-0165,Catalina Pizarro Vásquez,catalina.vasquez@personal.example.com,Asistente de operaciones,Casa matriz,,2026-10-26,Andrés Valenzuela,Karina Araya Núñez,2026-10-16,10,En curso
+ING-0166,Vicente Valenzuela Martínez,vicente.martinez@personal.example.com,Ejecutivo/a de atención,Sucursal,Viña del Mar,2026-10-27,Francisca Vega,Agustín Gutiérrez González,2026-10-21,6,En curso
+ING-0167,Martina Sepúlveda Flores,martina.flores@personal.example.com,Analista de operaciones,Casa matriz,,2026-10-29,Andrés Valenzuela,Benjamín Pérez Pizarro,2026-10-22,7,En curso
+ING-0168,Vicente Díaz Díaz,vicente.diaz@personal.example.com,Analista comercial,Casa matriz,,2026-10-30,Marcela Contreras,Gabriel Rodríguez Rodríguez,2026-10-23,7,En curso
+ING-0169,Karina Hernández Rodríguez,karina.rodriguez@personal.example.com,Analista de tesorería,Casa matriz,,2026-11-16,Jorge Espinoza,Agustín Contreras Flores,2026-11-09,7,Programado
+ING-0170,Fernanda Castillo Carrasco,fernanda.carrasco@personal.example.com,Analista de riesgo,Casa matriz,,2026-11-23,Paula Herrera,Fernanda Rodríguez Valenzuela,2026-11-11,12,Programado
+ING-0171,Camila Díaz Torres,camila.torres@personal.example.com,Ejecutivo/a de atención,Sucursal,Antofagasta,2026-11-30,Cristián Araya,Valentina López Gutiérrez,2026-11-09,21,Programado
+ING-0172,Fernanda Rojas Ramírez,fernanda.ramirez@personal.example.com,Cajero/a,Sucursal,Arica,2026-12-01,Héctor Morales,Tomás Araya Fernández,2026-11-11,20,Programado
+ING-0173,Sebastián Tapia Sepúlveda,sebastian.sepulveda@personal.example.com,Ejecutivo/a de atención,Sucursal,Santiago Centro,2026-12-07,Gonzalo Reyes,Vicente Valenzuela Vásquez,2026-11-09,28,Programado
