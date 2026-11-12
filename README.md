@@ -33,7 +33,7 @@ Todo vive en la solución **Onboarding Austral** (prefijo `aus`). El detalle de 
 
 ## Los datos
 
-El histórico es sintético y se genera con Python: **173 ingresos, 2.352 tareas y 136 encuestas** entre mayo 2025 y octubre 2026. Incluye patrones escondidos a propósito para descubrirlos en el dashboard:
+El histórico es sintético y se genera con Python: **173 ingresos, 2.352 tareas y 136 encuestas** entre mayo 2025 y octubre 2026. Incluye patrones simulados a propósito para descubrirlos en el dashboard:
 
 1. TI se atrasa bastante más en los meses de peak de contratación (marzo y agosto).
 2. Las sucursales regionales tienen más atrasos en la entrega de equipo y puesto.
