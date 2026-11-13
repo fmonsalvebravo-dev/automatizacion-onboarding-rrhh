@@ -31,9 +31,23 @@ Responsable (tabla independiente: a quién avisar por rol)
 
 Todo vive en la solución **Onboarding Austral** (prefijo `aus`). El detalle de tablas, columnas y decisiones de diseño está en [`dataverse/tablas.md`](dataverse/tablas.md).
 
+## La app
+
+App de lienzo para el equipo de Personas, con tres pantallas:
+
+| Pantalla | Qué hace |
+|---|---|
+| **Inicio** | Lista de ingresos con buscador y filtro por estado, ordenada por fecha de ingreso |
+| **Nuevo ingreso** | Formulario que genera el ID automáticamente, muestra la sucursal solo para cargos de sucursal, sugiere la jefatura según el cargo o la sucursal y advierte cuando quedan menos de 5 días para el ingreso |
+| **Detalle** | Datos del ingreso, barra de avance y lista de tareas con colores por situación (a tiempo, con atraso, atrasada, pendiente); permite marcar tareas como completadas |
+
+La app solo registra ingresos y actualiza tareas: la creación de las tareas y los cambios de estado del ingreso los hacen los flujos de Power Automate, para que la lógica de negocio viva en un solo lugar.
+
+Además, una **app basada en modelo** (*Administración Onboarding*) permite ver y editar todas las tablas.
+
 ## Los datos
 
-El histórico es sintético y se genera con Python: **173 ingresos, 2.352 tareas y 136 encuestas** entre mayo 2025 y octubre 2026. Incluye patrones simulados a propósito para descubrirlos en el dashboard:
+El histórico es sintético y se genera con Python: **173 ingresos, 2.352 tareas y 136 encuestas** entre mayo 2025 y octubre 2026. Como los datos son sintéticos, se simularon tres problemas operacionales realistas que el dashboard debe hacer visibles:
 
 1. TI se atrasa bastante más en los meses de peak de contratación (marzo y agosto).
 2. Las sucursales regionales tienen más atrasos en la entrega de equipo y puesto.
@@ -62,7 +76,7 @@ El script genera dos versiones de los mismos datos:
 - [x] Paso 1: diseño del proceso y modelo de datos
 - [x] Paso 2: histórico sintético (173 ingresos, 2.352 tareas, mayo 2025 a octubre 2026)
 - [x] Paso 3: tablas en Dataverse e importación de datos
-- [ ] Paso 4: app de lienzo para registrar ingresos
+- [x] Paso 4: app de lienzo para registrar ingresos y seguir su avance
 - [ ] Paso 5: flujos de Power Automate
 - [ ] Paso 6: dashboard en Power BI
 - [ ] Paso 7: agente en Copilot Studio
@@ -74,6 +88,10 @@ El script genera dos versiones de los mismos datos:
 - **Validación de datos en el origen.** Al revisar reglas de negocio sobre el histórico se detectó que 47 de 173 registros caían en fin de semana. Se corrigió en el generador (el registro pasa al viernes anterior) y se agregaron validaciones: ningún registro posterior al ingreso ni a la fecha de corte, y días de anticipación coherentes con las fechas.
 - **Fechas y zona horaria.** Las columnas de fecha usan el comportamiento *Solo fecha*; con el valor por defecto (*Usuario local*) Dataverse guarda en UTC y en Chile las fechas pueden aparecer un día antes.
 - **Dos importadores, dos comportamientos.** El importador moderno de Excel/CSV cargó bien las tablas sin búsquedas, pero en las tablas con búsquedas fallaba sin mostrar errores. La causa: cada tabla tiene un identificador único con el mismo nombre para mostrar que la tabla (por ejemplo, dos columnas "Cargo"). Se resolvió con el importador clásico desde la app basada en modelo, que permite elegir el destino de cada columna, resuelve las búsquedas por la columna principal y deja un registro de errores por fila.
+- **Delegación en Power Apps.** La tabla de tareas tiene más de 2.000 filas, el máximo que Power Apps procesa localmente. El filtro de tareas de un ingreso compara el identificador único de la búsqueda, una operación delegable que resuelve Dataverse en el servidor; con un filtro no delegable, los ingresos más recientes habrían aparecido sin tareas y sin ningún error.
+- **Datos relacionados en cuadros combinados.** El cuadro combinado de Cargo no traía los datos del Área relacionada, por lo que la jefatura sugerida quedaba vacía en casa matriz. Se resolvió con `LookUp` directo a la tabla de cargos, que trae el registro completo con sus relaciones.
+- **Errores en cascada.** Un error en la propiedad *Items* de una galería hace que fallen todas sus etiquetas, porque `ThisItem` pierde sus columnas: la causa estaba en la galería, no en las etiquetas.
+- **Conflictos de nombres entre tablas y columnas.** Con el plural de una tabla igual a su singular, Power Apps interpretaba la columna de búsqueda *Ingreso* como la tabla completa. Se resolvió con `ThisRecord` y corrigiendo los plurales de las tablas.
 - **Nombres que chocan con columnas de sistema.** Toda tabla trae columnas *Estado* y *Razón para el estado*, por eso las columnas propias se llaman *Estado ingreso* y *Estado tarea*.
 
 ## Cómo regenerar los datos
