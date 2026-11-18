@@ -39,11 +39,31 @@ App de lienzo para el equipo de Personas, con tres pantallas:
 |---|---|
 | **Inicio** | Lista de ingresos con buscador y filtro por estado, ordenada por fecha de ingreso |
 | **Nuevo ingreso** | Formulario que genera el ID automáticamente, muestra la sucursal solo para cargos de sucursal, sugiere la jefatura según el cargo o la sucursal y advierte cuando quedan menos de 5 días para el ingreso |
-| **Detalle** | Datos del ingreso, barra de avance y lista de tareas con colores por situación (a tiempo, con atraso, atrasada, pendiente); permite marcar tareas como completadas |
+| **Detalle** | Datos del ingreso, barra de avance y lista de tareas con colores por situación (a tiempo, con atraso, atrasada, pendiente); permite marcar tareas como completadas. Al completar la tarea *Asignar tutor* (T06), la jefatura debe indicar el tutor: queda guardado en el ingreso y asignado a la tarea *Inducción del cargo* (T10) |
 
 La app solo registra ingresos y actualiza tareas: la creación de las tareas y los cambios de estado del ingreso los hacen los flujos de Power Automate, para que la lógica de negocio viva en un solo lugar.
 
+El tutor no se pide al registrar el ingreso: según el proceso lo define la jefatura en la tarea T06, así que se registra ahí.
+
 Además, una **app basada en modelo** (*Administración Onboarding*) permite ver y editar todas las tablas.
+
+## La automatización
+
+| Flujo | Se activa | Qué hace | Estado |
+|---|---|---|---|
+| **Crear tareas del ingreso** | Cuando se crea un ingreso | Recorre la plantilla y crea las 14 tareas que aplican a la sede del ingreso, con su fecha de compromiso (fecha de ingreso + día relativo) y su responsable | Listo |
+| **Revisión diaria** | Todos los días | Pasa los ingresos a *En curso* cuando llega su fecha y envía recordatorios de tareas atrasadas | Pendiente |
+| **Cierre del ingreso** | Cuando se completa una tarea | Marca el ingreso como *Completado* cuando ya no le quedan tareas pendientes | Pendiente |
+
+Cómo funciona el flujo de creación de tareas:
+
+1. **Desencadenador:** fila creada en *Ingresos*.
+2. **Obtener una fila por id:** lee el ingreso completo, que incluye las etiquetas de las opciones.
+3. **Sede:** guarda la etiqueta de la sede (*Casa matriz* o *Sucursal*).
+4. **Enumerar filas:** trae la plantilla de tareas.
+5. **Por cada tarea de la plantilla:** si aplica a *Todos* o a la sede del ingreso, determina a quién se asigna (jefatura, tutor, el propio colaborador o la persona definida en *Responsables* para TI, Personas y Administración) y crea la tarea con sus búsquedas al ingreso y a la plantilla.
+
+Las tareas nuevas usan un ID legible que combina el ingreso y el código de la tarea (`ING-0175-T04`).
 
 ## Los datos
 
@@ -77,7 +97,7 @@ El script genera dos versiones de los mismos datos:
 - [x] Paso 2: histórico sintético (173 ingresos, 2.352 tareas, mayo 2025 a octubre 2026)
 - [x] Paso 3: tablas en Dataverse e importación de datos
 - [x] Paso 4: app de lienzo para registrar ingresos y seguir su avance
-- [ ] Paso 5: flujos de Power Automate
+- [ ] Paso 5: flujos de Power Automate (creación de tareas lista; revisión diaria y cierre pendientes)
 - [ ] Paso 6: dashboard en Power BI
 - [ ] Paso 7: agente en Copilot Studio
 - [ ] Paso 8: video demo
@@ -92,6 +112,11 @@ El script genera dos versiones de los mismos datos:
 - **Datos relacionados en cuadros combinados.** El cuadro combinado de Cargo no traía los datos del Área relacionada, por lo que la jefatura sugerida quedaba vacía en casa matriz. Se resolvió con `LookUp` directo a la tabla de cargos, que trae el registro completo con sus relaciones.
 - **Errores en cascada.** Un error en la propiedad *Items* de una galería hace que fallen todas sus etiquetas, porque `ThisItem` pierde sus columnas: la causa estaba en la galería, no en las etiquetas.
 - **Conflictos de nombres entre tablas y columnas.** Con el plural de una tabla igual a su singular, Power Apps interpretaba la columna de búsqueda *Ingreso* como la tabla completa. Se resolvió con `ThisRecord` y corrigiendo los plurales de las tablas.
+- **El desencadenador de Dataverse no trae las etiquetas de las opciones.** Solo envía el número interno (`751830001`), por lo que la comparación con la etiqueta *Sucursal* fallaba y no se creaba la tarea de equipo para sucursales. Se resolvió leyendo la fila completa con *Obtener una fila por id*, que sí incluye las etiquetas, sin dejar números escritos a mano en el flujo.
+- **Depurar una condición con "Ver código".** El diseñador solo muestra el resultado de una condición, no los valores comparados. Al revisar su código se vio que comparaba contra la sede del desencadenador (el número) en vez de la salida del paso *Sede*: dos campos casi iguales en el contenido dinámico.
+- **Búsquedas en Power Automate.** Una columna de búsqueda no se llena con el texto visible sino con la referencia `conjunto(GUID)`, por ejemplo `aus_plantilladetareas(...)`. El nombre del conjunto de entidades se puede confirmar en las salidas sin procesar de un paso (`@odata.context`).
+- **Autenticación de conexiones.** La conexión de Dataverse fallaba al crearse desde el diseñador de flujos porque el navegador bloqueaba las cookies de terceros que necesita la ventana de inicio de sesión de Microsoft. Se resolvió permitiéndolas, y la conexión se maneja con una *referencia de conexión* dentro de la solución, para que el flujo se pueda importar en otro entorno sin modificarlo.
+- **El formulario debe seguir al proceso.** Al probar el sistema se detectó que el registro exigía el tutor, un dato que según el proceso todavía no existe en ese momento (lo define la jefatura en la tarea T06). Se sacó del formulario y se pide al completar la T06.
 - **Nombres que chocan con columnas de sistema.** Toda tabla trae columnas *Estado* y *Razón para el estado*, por eso las columnas propias se llaman *Estado ingreso* y *Estado tarea*.
 
 ## Cómo regenerar los datos
